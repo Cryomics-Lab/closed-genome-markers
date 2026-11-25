@@ -6,7 +6,9 @@ Each genome is scored against its own domain's marker set (bac120 or ar53),
 taken from the lineage's d__ field; a genome with no lineage takes the set in
 which fewer markers are missing. A closed genome should have every marker
 exactly once, 100% completeness and 0% contamination; anything else is an
-error. Writes <prefix>.genomes.tsv (per genome) and <prefix>.markers.tsv
+error. GTDB-Tk's alignment keeps a marker found once, or in identical copies,
+and drops one found in differing copies, so `lost` (missing + differing
+copies) is what the alignment loses. Writes <prefix>.genomes.tsv (per genome) and <prefix>.markers.tsv
 (per marker: how often missing or multi-copy), and prints summaries.
 """
 import csv, sys
@@ -37,11 +39,13 @@ for a, c in ck.items():
     miss = [m for m in r['list_missing_genes'].split(',') if m]
     mult = [m for m in (r['list_multiple_genes'] + ',' + r['list_multiple_unique_genes']).split(',') if m]
     uniq = [m for m in r['list_unique_genes'].split(',') if m]
+    same = [m for m in r['list_multiple_unique_genes'].split(',') if m]
     for m in uniq: per_marker[(s, m)]['ok'] += 1
     for m in miss: per_marker[(s, m)]['missing'] += 1
     for m in mult: per_marker[(s, m)]['multi'] += 1
     genomes.append(dict(accession=a, marker_set=s, n_markers=len(uniq) + len(miss) + len(mult),
-        missing=len(miss), multi=len(mult), completeness=float(c['Completeness']),
+        missing=len(miss), multi=len(mult), multi_identical=len(same),
+        lost=len(miss) + len(mult) - len(same), completeness=float(c['Completeness']),
         contamination=float(c['Contamination']), checkm2_model=c['Completeness_Model_Used'].split(' (')[0],
         genome_size=c['Genome_Size'], coding_density=c['Coding_Density'],
         missing_list=','.join(miss), multi_list=','.join(mult), lineage=';'.join(lin)))

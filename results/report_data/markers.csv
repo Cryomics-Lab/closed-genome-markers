@@ -1,0 +1,347 @@
+set,marker_set,marker,name,description,genomes,pct_missing,pct_multi
+reps,bac120,TIGR00382,clpX,"clpX: ATP-dependent Clp protease, ATP-binding subunit ClpX",10195,4.3,54.27
+reps,bac120,TIGR01302,IMP_dehydrog,IMP_dehydrog: inosine-5'-monophosphate dehydrogenase,10195,10.83,6.82
+reps,bac120,PF02576.18,RimP N-terminal domain,RimP N-terminal domain,10195,14.8,0.06
+reps,bac120,TIGR00435,cysS,cysS: cysteine--tRNA ligase,10195,0.79,12.62
+reps,bac120,TIGR00416,sms,sms: DNA repair protein RadA,10195,12.58,0.17
+reps,bac120,TIGR00717,rpsA,rpsA: ribosomal protein bS1,10195,7.2,5.12
+reps,bac120,TIGR01059,gyrB,"gyrB: DNA gyrase, B subunit",10195,1.68,10.51
+reps,bac120,TIGR00634,recN,recN: DNA repair protein RecN,10195,11.63,0.26
+reps,bac120,TIGR01082,murC,murC: UDP-N-acetylmuramate--L-alanine ligase,10195,7.36,4.15
+reps,bac120,TIGR01394,TypA_BipA,TypA_BipA: GTP-binding protein TypA/BipA,10195,10.59,0.77
+reps,bac120,TIGR00928,purB,purB: adenylosuccinate lyase,10195,7.5,3.56
+reps,bac120,TIGR00186,rRNA_methyl_3,"rRNA_methyl_3: RNA methyltransferase, TrmH family, group 3",10195,8.47,1.97
+reps,bac120,TIGR01039,atpD,"atpD: ATP synthase F1, beta subunit",10195,3.9,6.35
+reps,bac120,TIGR00539,hemN_rel,hemN_rel: putative oxygen-independent coproporphyrinogen III oxidase,10195,8.78,1.39
+reps,bac120,TIGR01146,ATPsyn_F1gamma,"ATPsyn_F1gamma: ATP synthase F1, gamma subunit",10195,3.82,5.65
+reps,bac120,TIGR00065,ftsZ,ftsZ: cell division protein FtsZ,10195,3.52,5.86
+reps,bac120,TIGR00643,recG,recG: ATP-dependent DNA helicase RecG,10195,8.92,0.15
+reps,bac120,TIGR00138,rsmG_gidB,rsmG_gidB: 16S rRNA (guanine(527)-N(7))-methyltransferase RsmG,10195,8.22,0.53
+reps,bac120,TIGR00445,mraY,mraY: phospho-N-acetylmuramoyl-pentapeptide-transferase,10195,6.85,1.79
+reps,bac120,TIGR02273,16S_RimM,16S_RimM: 16S rRNA processing protein RimM,10195,8.33,0.12
+reps,bac120,TIGR00580,mfd,mfd: transcription-repair coupling factor,10195,6.14,2.2
+reps,bac120,TIGR02350,prok_dnaK,prok_dnaK: chaperone protein DnaK,10195,0.71,7.63
+reps,bac120,TIGR00083,ribF,ribF: riboflavin biosynthesis protein RibF,10195,5.13,2.43
+reps,bac120,PF01025.20,GrpE,GrpE,10195,0.13,7.3
+reps,bac120,TIGR02397,dnaX_nterm,"dnaX_nterm: DNA polymerase III, subunit gamma and tau",10195,0.47,6.78
+reps,bac120,TIGR00436,era,era: GTP-binding protein Era,10195,6.8,0.39
+reps,bac120,TIGR00054,TIGR00054,TIGR00054: RIP metalloprotease RseP,10195,4.2,2.79
+reps,bac120,TIGR01087,murD,murD: UDP-N-acetylmuramoylalanine--D-glutamate ligase,10195,6.22,0.7
+reps,bac120,TIGR00090,rsfS_iojap_ybeB,rsfS_iojap_ybeB: ribosome silencing factor,10195,6.84,0.07
+reps,bac120,TIGR01128,holA,"holA: DNA polymerase III, delta subunit",10195,6.2,0.55
+reps,bac120,TIGR01510,coaD_prev_kdtB,coaD_prev_kdtB: pantetheine-phosphate adenylyltransferase,10195,4.95,1.48
+reps,bac120,TIGR03725,T6A_YeaZ,T6A_YeaZ: tRNA threonylcarbamoyl adenosine modification protein YeaZ,10195,6.33,0.05
+reps,bac120,TIGR01063,gyrA,"gyrA: DNA gyrase, A subunit",10195,1.69,4.63
+reps,bac120,TIGR00456,argS,argS: arginine--tRNA ligase,10195,0.54,5.4
+reps,bac120,TIGR00663,dnan,"dnan: DNA polymerase III, beta subunit",10195,0.89,4.89
+reps,bac120,TIGR02191,RNaseIII,RNaseIII: ribonuclease III,10195,4.43,1.35
+reps,bac120,TIGR00084,ruvA,ruvA: Holliday junction DNA helicase RuvA,10195,5.64,0.1
+reps,bac120,TIGR01391,dnaG,dnaG: DNA primase,10195,0.24,5.31
+reps,bac120,PF03726.15,PNPase,"Polyribonucleotide nucleotidyltransferase, RNA binding domain",10195,5.42,0.1
+reps,bac120,TIGR00115,tig,tig: trigger factor,10195,3.83,1.5
+reps,bac120,TIGR00362,DnaA,DnaA: chromosomal replication initiator protein DnaA,10195,2.29,2.8
+reps,bac120,TIGR00459,aspS_bact,aspS_bact: aspartate--tRNA ligase,10195,2.92,1.93
+reps,bac120,TIGR00593,pola,pola: DNA polymerase I,10195,4.47,0.34
+reps,bac120,TIGR02075,pyrH_bact,pyrH_bact: UMP kinase,10195,3.59,1.2
+reps,bac120,TIGR00095,TIGR00095,TIGR00095: 16S rRNA (guanine(966)-N(2))-methyltransferase RsmD,10195,4.49,0.25
+reps,bac120,TIGR00959,ffh,ffh: signal recognition particle protein,10195,4.53,0.06
+reps,bac120,TIGR00615,recR,recR: recombination protein RecR,10195,4.51,0.08
+reps,bac120,TIGR00398,metG,metG: methionine--tRNA ligase,10195,0.36,4.14
+reps,bac120,TIGR00964,secE_bact,"secE_bact: preprotein translocase, SecE subunit",10195,4.34,0.15
+reps,bac120,TIGR00250,RNAse_H_YqgF,RNAse_H_YqgF: putative transcription antitermination factor YqgF,10195,4.31,0.09
+reps,bac120,TIGR00337,PyrG,PyrG: CTP synthase,10195,3.92,0.47
+reps,bac120,TIGR02012,tigrfam_recA,tigrfam_recA: protein RecA,10195,1.72,2.61
+reps,bac120,TIGR00442,hisS,hisS: histidine--tRNA ligase,10195,0.78,3.49
+reps,bac120,TIGR01951,nusB,nusB: transcription antitermination factor NusB,10195,3.02,1.24
+reps,bac120,TIGR03263,guanyl_kin,guanyl_kin: guanylate kinase,10195,3.98,0.25
+reps,bac120,TIGR00064,ftsY,ftsY: signal recognition particle-docking protein FtsY,10195,4.06,0.01
+reps,bac120,TIGR00194,uvrC,uvrC: excinuclease ABC subunit C,10195,3.67,0.37
+reps,bac120,TIGR00635,ruvB,ruvB: Holliday junction DNA helicase RuvB,10195,3.47,0.47
+reps,bac120,TIGR00810,secG,"secG: preprotein translocase, SecG subunit",10195,3.58,0.2
+reps,bac120,TIGR00631,uvrb,uvrb: excinuclease ABC subunit B,10195,3.0,0.65
+reps,bac120,TIGR00420,trmU,trmU: tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase,10195,1.25,2.28
+reps,ar53,TIGR01171,rplB_bact,rplB_bact: ribosomal protein uL2,542,64.76,0.37
+reps,bac120,TIGR00020,prfB,prfB: peptide chain release factor 2,10195,3.36,0.04
+reps,bac120,TIGR00168,infC,infC: translation initiation factor IF-3,10195,0.7,2.68
+reps,bac120,TIGR00392,ileS,ileS: isoleucine--tRNA ligase,10195,1.17,2.15
+reps,bac120,TIGR00460,fmt,fmt: methionyl-tRNA formyltransferase,10195,2.46,0.77
+reps,bac120,TIGR00431,TruB,TruB: tRNA pseudouridine(55) synthase,10195,2.48,0.58
+reps,bac120,TIGR00082,rbfA,rbfA: ribosome-binding factor A,10195,2.9,0.13
+reps,bac120,TIGR00963,secA,"secA: preprotein translocase, SecA subunit",10195,1.28,1.61
+reps,bac120,TIGR01017,rpsD_bact,rpsD_bact: ribosomal protein uS4,10195,0.16,2.73
+reps,bac120,TIGR02432,lysidine_TilS_N,lysidine_TilS_N: tRNA(Ile)-lysidine synthetase,10195,2.1,0.71
+reps,bac120,TIGR00922,nusG,nusG: transcription termination/antitermination factor NusG,10195,2.62,0.08
+reps,bac120,TIGR01393,lepA,lepA: elongation factor 4,10195,0.94,1.71
+reps,bac120,TIGR00472,pheT_bact,"pheT_bact: phenylalanine--tRNA ligase, beta subunit",10195,2.16,0.35
+reps,bac120,TIGR02386,rpoC_TIGR,"rpoC_TIGR: DNA-directed RNA polymerase, beta' subunit",10195,2.41,0.1
+reps,bac120,TIGR00414,serS,serS: serine--tRNA ligase,10195,0.25,2.07
+reps,bac120,TIGR03632,uS11_bact,uS11_bact: ribosomal protein uS11,10195,2.24,0.04
+reps,bac120,TIGR00006,TIGR00006,TIGR00006: 16S rRNA (cytosine(1402)-N(4))-methyltransferase,10195,0.29,1.78
+reps,bac120,TIGR00029,S20,S20: ribosomal protein bS20,10195,1.83,0.22
+reps,bac120,TIGR02027,rpoA,"rpoA: DNA-directed RNA polymerase, alpha subunit",10195,0.11,1.7
+reps,bac120,TIGR00396,leuS_bact,leuS_bact: leucine--tRNA ligase,10195,0.19,1.52
+reps,bac120,TIGR00755,ksgA,ksgA: ribosomal RNA small subunit methyltransferase A,10195,1.48,0.19
+reps,bac120,TIGR00086,smpB,smpB: SsrA-binding protein,10195,0.48,1.14
+reps,bac120,TIGR00092,TIGR00092,TIGR00092: GTP-binding protein YchF,10195,0.98,0.63
+reps,bac120,TIGR00043,TIGR00043,TIGR00043: rRNA maturation RNase YbeY,10195,1.35,0.23
+reps,bac120,TIGR03594,GTPase_EngA,GTPase_EngA: ribosome-associated GTPase EngA,10195,1.42,0.06
+reps,bac120,TIGR03723,T6A_TsaD_YgjD,T6A_TsaD_YgjD: tRNA threonylcarbamoyl adenosine modification protein TsaD,10195,1.18,0.18
+reps,bac120,TIGR00158,L9,L9: ribosomal protein bL9,10195,0.94,0.31
+reps,bac120,TIGR01632,L11_bact,L11_bact: ribosomal protein uL11,10195,0.94,0.3
+reps,bac120,TIGR02013,rpoB,"rpoB: DNA-directed RNA polymerase, beta subunit",10195,0.45,0.77
+reps,bac120,TIGR00344,alaS,alaS: alanine--tRNA ligase,10195,0.64,0.57
+reps,bac120,TIGR02729,Obg_CgtA,Obg_CgtA: Obg family GTPase CgtA,10195,0.81,0.39
+reps,bac120,TIGR00088,trmD,trmD: tRNA (guanine(37)-N(1))-methyltransferase,10195,0.31,0.78
+reps,bac120,TIGR00967,3a0501s007,"3a0501s007: preprotein translocase, SecY subunit",10195,0.54,0.54
+reps,bac120,TIGR03654,L6_bact,L6_bact: ribosomal protein uL6,10195,1.0,0.02
+reps,ar53,TIGR03673,uL14_arch,uL14_arch: 50S ribosomal protein uL14,542,15.68,0.37
+reps,bac120,TIGR00019,prfA,prfA: peptide chain release factor 1,10195,0.73,0.06
+reps,ar53,TIGR03629,uS13_arch,uS13_arch: ribosomal protein uS13,542,14.58,0.0
+reps,bac120,TIGR00468,pheS,"pheS: phenylalanine--tRNA ligase, alpha subunit",10195,0.59,0.19
+reps,bac120,TIGR01169,rplA_bact,rplA_bact: ribosomal protein uL1,10195,0.6,0.18
+reps,bac120,TIGR01044,rplV_bact,rplV_bact: ribosomal protein uL22,10195,0.73,0.03
+reps,bac120,TIGR00061,L21,L21: ribosomal protein bL21,10195,0.5,0.19
+reps,ar53,TIGR03627,uS9_arch,uS9_arch: ribosomal protein uS9,542,12.73,0.0
+reps,ar53,TIGR00967,3a0501s007,"3a0501s007: preprotein translocase, SecY subunit",542,11.25,0.74
+reps,bac120,TIGR00116,tsf,tsf: translation elongation factor Ts,10195,0.31,0.31
+reps,bac120,TIGR01953,NusA,NusA: transcription termination factor NusA,10195,0.52,0.09
+reps,ar53,TIGR02389,RNA_pol_rpoA2,"RNA_pol_rpoA2: DNA-directed RNA polymerase, subunit A''",542,9.96,0.37
+reps,ar53,TIGR00483,EF-1_alpha,"EF-1_alpha: translation elongation factor EF-1, subunit alpha",542,0.0,10.15
+reps,ar53,TIGR03676,aRF1/eRF1,"aRF1/eRF1: peptide chain release factor 1, archaeal and eukaryotic forms",542,0.0,10.15
+reps,bac120,TIGR00059,L17,L17: ribosomal protein bL17,10195,0.39,0.14
+reps,bac120,TIGR01071,rplO_bact,rplO_bact: ribosomal protein uL15,10195,0.44,0.07
+reps,bac120,TIGR00487,IF-2,IF-2: translation initiation factor IF-2,10195,0.33,0.16
+reps,bac120,TIGR01021,rpsE_bact,rpsE_bact: ribosomal protein uS5,10195,0.43,0.06
+reps,bac120,TIGR01079,rplX_bact,rplX_bact: ribosomal protein uL24,10195,0.4,0.05
+reps,ar53,TIGR01952,nusA_arch,"nusA_arch: NusA family KH domain protein, archaeal",542,2.95,5.17
+reps,bac120,TIGR00496,frr,frr: ribosome recycling factor,10195,0.38,0.04
+reps,bac120,TIGR01164,rplP_bact,rplP_bact: ribosomal protein uL16,10195,0.35,0.07
+reps,ar53,TIGR00373,TIGR00373,TIGR00373: transcription factor E,542,6.83,0.92
+reps,bac120,TIGR03953,rplD_bact,rplD_bact: 50S ribosomal protein uL4,10195,0.32,0.08
+reps,ar53,TIGR03628,arch_S11P,arch_S11P: ribosomal protein uS11,542,7.2,0.0
+reps,bac120,PF00380.20,Ribosomal_S9,Ribosomal protein S9/S16,10195,0.16,0.23
+reps,bac120,TIGR01011,rpsB_bact,rpsB_bact: ribosomal protein uS2,10195,0.07,0.31
+reps,bac120,PF00466.21,Ribosomal_L10,Ribosomal protein L10,10195,0.23,0.15
+reps,ar53,TIGR03672,rpl4p_arch,rpl4p_arch: 50S ribosomal protein uL4,542,6.09,0.37
+reps,bac120,PF00410.20,Ribosomal_S8,Ribosomal protein S8,10195,0.19,0.16
+reps,bac120,TIGR03625,L3_bact,L3_bact: 50S ribosomal protein uL3,10195,0.25,0.09
+reps,bac120,TIGR01009,rpsC_bact,rpsC_bact: ribosomal protein uS3,10195,0.17,0.16
+reps,bac120,TIGR01066,rplM_bact,rplM_bact: ribosomal protein uL13,10195,0.23,0.1
+reps,bac120,TIGR00166,S6,S6: ribosomal protein bS6,10195,0.2,0.12
+reps,bac120,TIGR01032,rplT_bact,rplT_bact: ribosomal protein bL20,10195,0.18,0.14
+reps,bac120,TIGR01029,rpsG_bact,rpsG_bact: ribosomal protein uS7,10195,0.21,0.08
+reps,ar53,TIGR00111,pelota,pelota: mRNA surveillance protein pelota,542,4.8,0.0
+reps,ar53,TIGR02236,recomb_radA,recomb_radA: DNA repair and recombination protein RadA,542,0.55,4.24
+reps,bac120,TIGR01171,rplB_bact,rplB_bact: ribosomal protein uL2,10195,0.21,0.05
+reps,ar53,TIGR00335,primase_sml,"primase_sml: putative DNA primase, eukaryotic-type, small subunit",542,3.14,0.55
+reps,ar53,TIGR01213,pseudo_Pus10arc,pseudo_Pus10arc: tRNA pseudouridine(54/55) synthase,542,2.77,0.92
+reps,ar53,TIGR01052,top6b,"top6b: DNA topoisomerase VI, B subunit",542,1.48,2.03
+reps,ar53,PF00827.18,Ribosomal_L15e,Ribosomal L15,542,0.18,2.95
+reps,ar53,TIGR03670,rpoB_arch,rpoB_arch: DNA-directed RNA polymerase subunit B,542,2.4,0.37
+reps,ar53,TIGR03674,fen_arch,fen_arch: flap structure-specific endonuclease,542,0.0,2.58
+reps,ar53,TIGR00522,dph5,dph5: diphthine synthase,542,2.4,0.0
+reps,ar53,PF00900.21,Ribosomal_S4e,Ribosomal family S4e,542,1.48,0.37
+reps,ar53,TIGR00064,ftsY,ftsY: signal recognition particle-docking protein FtsY,542,1.48,0.37
+reps,ar53,TIGR03626,L3_arch,L3_arch: ribosomal protein uL3,542,1.48,0.37
+reps,ar53,TIGR03680,eif2g_arch,"eif2g_arch: translation initiation factor 2, gamma subunit",542,1.85,0.0
+reps,ar53,TIGR00323,eIF-6,eIF-6: putative translation initiation factor eIF-6,542,1.66,0.0
+reps,ar53,PF04919.13,Protein of unknown function (DUF655),Protein of unknown function (DUF655),542,0.92,0.55
+reps,ar53,TIGR00134,gatE_arch,"gatE_arch: glutamyl-tRNA(Gln) amidotransferase, subunit E",542,0.37,0.74
+reps,ar53,TIGR02390,RNA_pol_rpoA1,RNA_pol_rpoA1: DNA-directed RNA polymerase subunit A',542,0.74,0.37
+reps,ar53,TIGR01046,uS10_euk_arch,uS10_euk_arch: ribosomal protein uS10,542,0.92,0.0
+reps,ar53,TIGR02338,gimC_beta,"gimC_beta: prefoldin, beta subunit",542,0.92,0.0
+reps,ar53,TIGR00279,uL16_euk_arch,uL16_euk_arch: ribosomal protein uL16,542,0.18,0.55
+reps,ar53,PF00410.20,Ribosomal_S8,Ribosomal protein S8,542,0.18,0.37
+reps,ar53,PF01090.20,Ribosomal_S19e,Ribosomal protein S19e,542,0.37,0.18
+reps,ar53,PF01280.21,Ribosomal_L19e,Ribosomal protein L19e,542,0.0,0.37
+reps,ar53,PF07541.13,EIF_2_alpha,Eukaryotic translation initiation factor 2 alpha subunit,542,0.18,0.18
+reps,ar53,TIGR00037,eIF_5A,eIF_5A: translation elongation factor IF5A,542,0.18,0.18
+reps,ar53,TIGR00291,RNA_SBDS,"RNA_SBDS: rRNA metabolism protein, SBDS family",542,0.18,0.18
+reps,ar53,TIGR01008,uS3_euk_arch,uS3_euk_arch: ribosomal protein uS3,542,0.0,0.37
+reps,ar53,TIGR01020,uS5_euk_arch,uS5_euk_arch: ribosomal protein uS5,542,0.0,0.37
+reps,ar53,PF00466.21,Ribosomal_L10,Ribosomal protein L10,542,0.18,0.0
+reps,ar53,PF01000.27,RNA_pol_A_bac,RNA polymerase Rpb3/RpoA insert domain,542,0.18,0.0
+reps,ar53,PF01200.19,Ribosomal_S28e,Ribosomal protein S28e,542,0.0,0.18
+reps,ar53,TIGR00491,aIF-2,aIF-2: translation initiation factor aIF-2,542,0.0,0.18
+reps,ar53,TIGR00982,uS12_E_A,uS12_E_A: ribosomal protein uS12,542,0.0,0.18
+reps,ar53,TIGR01012,uS2_euk_arch,uS2_euk_arch: ribosomal protein uS2,542,0.18,0.0
+reps,ar53,TIGR01018,uS4_arch,uS4_arch: ribosomal protein uS4,542,0.18,0.0
+reps,ar53,TIGR01028,uS7_euk_arch,uS7_euk_arch: ribosomal protein uS7,542,0.0,0.18
+reps,ar53,TIGR03671,cca_archaeal,cca_archaeal: CCA-adding enzyme,542,0.0,0.18
+reps,ar53,PF00687.22,Ribosomal_L1,Ribosomal protein L1p/L10e family,542,0.0,0.0
+reps,ar53,PF01015.19,Ribosomal_S3Ae,Ribosomal S3Ae family,542,0.0,0.0
+reps,ar53,TIGR00405,KOW_elon_Spt5,KOW_elon_Spt5: transcription elongation factor Spt5,542,0.0,0.0
+reps,ar53,TIGR00448,rpoE,rpoE: DNA-directed RNA polymerase,542,0.0,0.0
+post232,bac120,TIGR00382,clpX,"clpX: ATP-dependent Clp protease, ATP-binding subunit ClpX",4675,1.97,59.98
+post232,bac120,TIGR01059,gyrB,"gyrB: DNA gyrase, B subunit",4675,1.75,15.02
+post232,bac120,TIGR00435,cysS,cysS: cysteine--tRNA ligase,4675,1.07,12.92
+post232,bac120,TIGR01302,IMP_dehydrog,IMP_dehydrog: inosine-5'-monophosphate dehydrogenase,4675,4.34,7.98
+post232,bac120,TIGR02350,prok_dnaK,prok_dnaK: chaperone protein DnaK,4675,0.94,8.64
+post232,bac120,TIGR00928,purB,purB: adenylosuccinate lyase,4675,5.07,3.91
+post232,bac120,PF02576.18,RimP N-terminal domain,RimP N-terminal domain,4675,8.53,0.11
+post232,bac120,TIGR00717,rpsA,rpsA: ribosomal protein bS1,4675,3.81,4.56
+post232,bac120,TIGR00539,hemN_rel,hemN_rel: putative oxygen-independent coproporphyrinogen III oxidase,4675,6.22,1.8
+post232,bac120,TIGR01063,gyrA,"gyrA: DNA gyrase, A subunit",4675,1.71,5.82
+post232,bac120,TIGR01039,atpD,"atpD: ATP synthase F1, beta subunit",4675,2.59,4.9
+post232,bac120,TIGR00416,sms,sms: DNA repair protein RadA,4675,7.1,0.3
+post232,bac120,TIGR01146,ATPsyn_F1gamma,"ATPsyn_F1gamma: ATP synthase F1, gamma subunit",4675,2.57,4.66
+post232,bac120,TIGR00456,argS,argS: arginine--tRNA ligase,4675,0.77,6.4
+post232,bac120,TIGR00810,secG,"secG: preprotein translocase, SecG subunit",4675,6.91,0.15
+post232,bac120,PF01025.20,GrpE,GrpE,4675,0.45,6.44
+post232,bac120,TIGR00054,TIGR00054,TIGR00054: RIP metalloprotease RseP,4675,2.52,4.36
+post232,bac120,TIGR02397,dnaX_nterm,"dnaX_nterm: DNA polymerase III, subunit gamma and tau",4675,0.79,5.99
+post232,bac120,TIGR00663,dnan,"dnan: DNA polymerase III, beta subunit",4675,0.94,5.67
+post232,bac120,TIGR00065,ftsZ,ftsZ: cell division protein FtsZ,4675,2.29,4.28
+post232,bac120,TIGR02012,tigrfam_recA,tigrfam_recA: protein RecA,4675,1.2,5.16
+post232,bac120,TIGR01082,murC,murC: UDP-N-acetylmuramate--L-alanine ligase,4675,2.87,2.99
+post232,bac120,TIGR00398,metG,metG: methionine--tRNA ligase,4675,0.68,5.13
+post232,bac120,TIGR00392,ileS,ileS: isoleucine--tRNA ligase,4675,1.6,4.19
+post232,bac120,TIGR00580,mfd,mfd: transcription-repair coupling factor,4675,3.42,2.22
+post232,bac120,TIGR00083,ribF,ribF: riboflavin biosynthesis protein RibF,4675,1.73,3.85
+post232,bac120,TIGR00186,rRNA_methyl_3,"rRNA_methyl_3: RNA methyltransferase, TrmH family, group 3",4675,3.51,2.05
+post232,bac120,TIGR00634,recN,recN: DNA repair protein RecN,4675,5.01,0.26
+post232,bac120,TIGR01391,dnaG,dnaG: DNA primase,4675,0.56,4.45
+post232,bac120,PF03726.15,PNPase,"Polyribonucleotide nucleotidyltransferase, RNA binding domain",4675,4.58,0.3
+post232,bac120,TIGR00442,hisS,hisS: histidine--tRNA ligase,4675,1.07,3.68
+post232,bac120,TIGR00138,rsmG_gidB,rsmG_gidB: 16S rRNA (guanine(527)-N(7))-methyltransferase RsmG,4675,4.41,0.28
+post232,bac120,TIGR02273,16S_RimM,16S_RimM: 16S rRNA processing protein RimM,4675,4.53,0.11
+post232,bac120,TIGR01394,TypA_BipA,TypA_BipA: GTP-binding protein TypA/BipA,4675,3.57,0.79
+post232,bac120,TIGR00168,infC,infC: translation initiation factor IF-3,4675,0.6,3.74
+post232,bac120,TIGR00643,recG,recG: ATP-dependent DNA helicase RecG,4675,4.06,0.26
+post232,bac120,TIGR00436,era,era: GTP-binding protein Era,4675,4.02,0.24
+post232,bac120,TIGR00420,trmU,trmU: tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase,4675,2.33,1.84
+post232,bac120,TIGR00963,secA,"secA: preprotein translocase, SecA subunit",4675,1.54,2.57
+post232,bac120,TIGR03632,uS11_bact,uS11_bact: ribosomal protein uS11,4675,3.96,0.15
+post232,bac120,TIGR03725,T6A_YeaZ,T6A_YeaZ: tRNA threonylcarbamoyl adenosine modification protein YeaZ,4675,3.96,0.15
+post232,bac120,TIGR00115,tig,tig: trigger factor,4675,1.99,2.03
+post232,bac120,TIGR00459,aspS_bact,aspS_bact: aspartate--tRNA ligase,4675,2.5,1.45
+post232,bac120,TIGR00445,mraY,mraY: phospho-N-acetylmuramoyl-pentapeptide-transferase,4675,2.55,1.37
+post232,bac120,TIGR02075,pyrH_bact,pyrH_bact: UMP kinase,4675,1.71,2.2
+post232,bac120,TIGR00414,serS,serS: serine--tRNA ligase,4675,0.86,3.04
+post232,bac120,TIGR01510,coaD_prev_kdtB,coaD_prev_kdtB: pantetheine-phosphate adenylyltransferase,4675,1.75,2.1
+post232,bac120,TIGR00362,DnaA,DnaA: chromosomal replication initiator protein DnaA,4675,1.8,2.01
+post232,bac120,TIGR01017,rpsD_bact,rpsD_bact: ribosomal protein uS4,4675,0.47,3.34
+post232,bac120,TIGR00337,PyrG,PyrG: CTP synthase,4675,3.38,0.41
+post232,bac120,TIGR02191,RNaseIII,RNaseIII: ribonuclease III,4675,2.78,0.92
+post232,bac120,TIGR01128,holA,"holA: DNA polymerase III, delta subunit",4675,3.23,0.39
+post232,bac120,TIGR00084,ruvA,ruvA: Holliday junction DNA helicase RuvA,4675,3.29,0.15
+post232,bac120,TIGR00964,secE_bact,"secE_bact: preprotein translocase, SecE subunit",4675,3.23,0.17
+post232,bac120,TIGR00090,rsfS_iojap_ybeB,rsfS_iojap_ybeB: ribosome silencing factor,4675,3.14,0.11
+post232,bac120,TIGR00431,TruB,TruB: tRNA pseudouridine(55) synthase,4675,1.65,1.41
+post232,bac120,TIGR01951,nusB,nusB: transcription antitermination factor NusB,4675,1.88,1.18
+post232,bac120,TIGR01087,murD,murD: UDP-N-acetylmuramoylalanine--D-glutamate ligase,4675,2.63,0.41
+post232,bac120,TIGR00396,leuS_bact,leuS_bact: leucine--tRNA ligase,4675,0.6,2.33
+post232,bac120,TIGR01393,lepA,lepA: elongation factor 4,4675,0.73,2.2
+post232,bac120,TIGR00029,S20,S20: ribosomal protein bS20,4675,2.63,0.28
+post232,bac120,TIGR00006,TIGR00006,TIGR00006: 16S rRNA (cytosine(1402)-N(4))-methyltransferase,4675,0.71,2.18
+post232,bac120,TIGR00460,fmt,fmt: methionyl-tRNA formyltransferase,4675,1.35,1.54
+post232,bac120,TIGR02027,rpoA,"rpoA: DNA-directed RNA polymerase, alpha subunit",4675,0.56,2.25
+post232,bac120,TIGR00635,ruvB,ruvB: Holliday junction DNA helicase RuvB,4675,2.22,0.43
+post232,bac120,TIGR00593,pola,pola: DNA polymerase I,4675,1.8,0.81
+post232,bac120,TIGR00194,uvrC,uvrC: excinuclease ABC subunit C,4675,1.82,0.66
+post232,bac120,TIGR00631,uvrb,uvrb: excinuclease ABC subunit B,4675,1.5,0.98
+post232,bac120,TIGR02432,lysidine_TilS_N,lysidine_TilS_N: tRNA(Ile)-lysidine synthetase,4675,1.69,0.75
+post232,bac120,TIGR03263,guanyl_kin,guanyl_kin: guanylate kinase,4675,1.75,0.51
+post232,bac120,TIGR03723,T6A_TsaD_YgjD,T6A_TsaD_YgjD: tRNA threonylcarbamoyl adenosine modification protein TsaD,4675,1.2,0.98
+post232,bac120,TIGR00615,recR,recR: recombination protein RecR,4675,1.93,0.21
+post232,bac120,TIGR00959,ffh,ffh: signal recognition particle protein,4675,2.03,0.11
+post232,bac120,TIGR02386,rpoC_TIGR,"rpoC_TIGR: DNA-directed RNA polymerase, beta' subunit",4675,1.99,0.13
+post232,bac120,TIGR00095,TIGR00095,TIGR00095: 16S rRNA (guanine(966)-N(2))-methyltransferase RsmD,4675,1.86,0.21
+post232,bac120,TIGR00082,rbfA,rbfA: ribosome-binding factor A,4675,1.43,0.56
+post232,bac120,TIGR00086,smpB,smpB: SsrA-binding protein,4675,0.66,1.18
+post232,bac120,TIGR00250,RNAse_H_YqgF,RNAse_H_YqgF: putative transcription antitermination factor YqgF,4675,1.71,0.11
+post232,bac120,TIGR00092,TIGR00092,TIGR00092: GTP-binding protein YchF,4675,1.22,0.56
+post232,bac120,TIGR00967,3a0501s007,"3a0501s007: preprotein translocase, SecY subunit",4675,0.79,0.98
+post232,bac120,TIGR00020,prfB,prfB: peptide chain release factor 2,4675,1.6,0.13
+post232,bac120,TIGR00472,pheT_bact,"pheT_bact: phenylalanine--tRNA ligase, beta subunit",4675,1.18,0.56
+post232,bac120,TIGR00064,ftsY,ftsY: signal recognition particle-docking protein FtsY,4675,1.58,0.13
+post232,bac120,TIGR03594,GTPase_EngA,GTPase_EngA: ribosome-associated GTPase EngA,4675,1.54,0.11
+post232,bac120,TIGR00922,nusG,nusG: transcription termination/antitermination factor NusG,4675,1.54,0.09
+post232,bac120,TIGR00344,alaS,alaS: alanine--tRNA ligase,4675,0.83,0.75
+post232,bac120,TIGR00061,L21,L21: ribosomal protein bL21,4675,1.24,0.26
+post232,bac120,TIGR00755,ksgA,ksgA: ribosomal RNA small subunit methyltransferase A,4675,1.2,0.11
+post232,bac120,TIGR00043,TIGR00043,TIGR00043: rRNA maturation RNase YbeY,4675,1.05,0.21
+post232,bac120,TIGR01632,L11_bact,L11_bact: ribosomal protein uL11,4675,1.03,0.19
+post232,bac120,TIGR00158,L9,L9: ribosomal protein bL9,4675,0.94,0.26
+post232,ar53,TIGR01171,rplB_bact,rplB_bact: ribosomal protein uL2,69,81.16,0.0
+post232,bac120,TIGR02013,rpoB,"rpoB: DNA-directed RNA polymerase, beta subunit",4675,0.68,0.49
+post232,bac120,TIGR02729,Obg_CgtA,Obg_CgtA: Obg family GTPase CgtA,4675,0.71,0.47
+post232,bac120,TIGR03654,L6_bact,L6_bact: ribosomal protein uL6,4675,1.09,0.09
+post232,bac120,TIGR00019,prfA,prfA: peptide chain release factor 1,4675,0.98,0.15
+post232,bac120,TIGR00468,pheS,"pheS: phenylalanine--tRNA ligase, alpha subunit",4675,0.77,0.34
+post232,bac120,TIGR00088,trmD,trmD: tRNA (guanine(37)-N(1))-methyltransferase,4675,0.58,0.47
+post232,bac120,TIGR03953,rplD_bact,rplD_bact: 50S ribosomal protein uL4,4675,0.79,0.21
+post232,bac120,TIGR01044,rplV_bact,rplV_bact: ribosomal protein uL22,4675,0.9,0.09
+post232,bac120,TIGR01079,rplX_bact,rplX_bact: ribosomal protein uL24,4675,0.71,0.21
+post232,bac120,PF00466.21,Ribosomal_L10,Ribosomal protein L10,4675,0.81,0.09
+post232,bac120,TIGR00166,S6,S6: ribosomal protein bS6,4675,0.6,0.3
+post232,bac120,TIGR00487,IF-2,IF-2: translation initiation factor IF-2,4675,0.62,0.28
+post232,bac120,TIGR00059,L17,L17: ribosomal protein bL17,4675,0.68,0.19
+post232,bac120,TIGR01169,rplA_bact,rplA_bact: ribosomal protein uL1,4675,0.73,0.15
+post232,bac120,PF00380.20,Ribosomal_S9,Ribosomal protein S9/S16,4675,0.62,0.24
+post232,bac120,TIGR01066,rplM_bact,rplM_bact: ribosomal protein uL13,4675,0.68,0.17
+post232,bac120,TIGR01164,rplP_bact,rplP_bact: ribosomal protein uL16,4675,0.66,0.19
+post232,bac120,TIGR01011,rpsB_bact,rpsB_bact: ribosomal protein uS2,4675,0.41,0.43
+post232,bac120,TIGR01021,rpsE_bact,rpsE_bact: ribosomal protein uS5,4675,0.68,0.13
+post232,bac120,TIGR01032,rplT_bact,rplT_bact: ribosomal protein bL20,4675,0.53,0.28
+post232,bac120,TIGR03625,L3_bact,L3_bact: 50S ribosomal protein uL3,4675,0.64,0.17
+post232,bac120,TIGR01009,rpsC_bact,rpsC_bact: ribosomal protein uS3,4675,0.49,0.3
+post232,bac120,TIGR01029,rpsG_bact,rpsG_bact: ribosomal protein uS7,4675,0.64,0.15
+post232,bac120,TIGR01953,NusA,NusA: transcription termination factor NusA,4675,0.64,0.13
+post232,bac120,PF00410.20,Ribosomal_S8,Ribosomal protein S8,4675,0.51,0.19
+post232,bac120,TIGR00116,tsf,tsf: translation elongation factor Ts,4675,0.49,0.21
+post232,bac120,TIGR01071,rplO_bact,rplO_bact: ribosomal protein uL15,4675,0.53,0.17
+post232,bac120,TIGR01171,rplB_bact,rplB_bact: ribosomal protein uL2,4675,0.53,0.11
+post232,bac120,TIGR00496,frr,frr: ribosome recycling factor,4675,0.53,0.09
+post232,ar53,TIGR03629,uS13_arch,uS13_arch: ribosomal protein uS13,69,23.19,0.0
+post232,ar53,TIGR03673,uL14_arch,uL14_arch: 50S ribosomal protein uL14,69,21.74,0.0
+post232,ar53,TIGR02389,RNA_pol_rpoA2,"RNA_pol_rpoA2: DNA-directed RNA polymerase, subunit A''",69,18.84,0.0
+post232,ar53,TIGR03627,uS9_arch,uS9_arch: ribosomal protein uS9,69,17.39,0.0
+post232,ar53,TIGR03628,arch_S11P,arch_S11P: ribosomal protein uS11,69,11.59,0.0
+post232,ar53,TIGR03676,aRF1/eRF1,"aRF1/eRF1: peptide chain release factor 1, archaeal and eukaryotic forms",69,0.0,10.14
+post232,ar53,TIGR03672,rpl4p_arch,rpl4p_arch: 50S ribosomal protein uL4,69,10.14,0.0
+post232,ar53,TIGR00373,TIGR00373,TIGR00373: transcription factor E,69,8.7,0.0
+post232,ar53,TIGR00483,EF-1_alpha,"EF-1_alpha: translation elongation factor EF-1, subunit alpha",69,4.35,4.35
+post232,ar53,TIGR00967,3a0501s007,"3a0501s007: preprotein translocase, SecY subunit",69,5.8,2.9
+post232,ar53,TIGR03674,fen_arch,fen_arch: flap structure-specific endonuclease,69,5.8,2.9
+post232,ar53,TIGR03680,eif2g_arch,"eif2g_arch: translation initiation factor 2, gamma subunit",69,8.7,0.0
+post232,ar53,TIGR00134,gatE_arch,"gatE_arch: glutamyl-tRNA(Gln) amidotransferase, subunit E",69,2.9,4.35
+post232,ar53,TIGR02236,recomb_radA,recomb_radA: DNA repair and recombination protein RadA,69,4.35,2.9
+post232,ar53,TIGR00279,uL16_euk_arch,uL16_euk_arch: ribosomal protein uL16,69,2.9,2.9
+post232,ar53,TIGR00335,primase_sml,"primase_sml: putative DNA primase, eukaryotic-type, small subunit",69,5.8,0.0
+post232,ar53,TIGR00522,dph5,dph5: diphthine synthase,69,5.8,0.0
+post232,ar53,TIGR01952,nusA_arch,"nusA_arch: NusA family KH domain protein, archaeal",69,2.9,2.9
+post232,ar53,TIGR03671,cca_archaeal,cca_archaeal: CCA-adding enzyme,69,5.8,0.0
+post232,ar53,PF00827.18,Ribosomal_L15e,Ribosomal L15,69,4.35,0.0
+post232,ar53,TIGR00111,pelota,pelota: mRNA surveillance protein pelota,69,4.35,0.0
+post232,ar53,TIGR00323,eIF-6,eIF-6: putative translation initiation factor eIF-6,69,4.35,0.0
+post232,ar53,TIGR02338,gimC_beta,"gimC_beta: prefoldin, beta subunit",69,4.35,0.0
+post232,ar53,TIGR03626,L3_arch,L3_arch: ribosomal protein uL3,69,4.35,0.0
+post232,ar53,TIGR03670,rpoB_arch,rpoB_arch: DNA-directed RNA polymerase subunit B,69,4.35,0.0
+post232,ar53,PF00466.21,Ribosomal_L10,Ribosomal protein L10,69,1.45,1.45
+post232,ar53,PF01015.19,Ribosomal_S3Ae,Ribosomal S3Ae family,69,2.9,0.0
+post232,ar53,PF07541.13,EIF_2_alpha,Eukaryotic translation initiation factor 2 alpha subunit,69,2.9,0.0
+post232,ar53,TIGR00037,eIF_5A,eIF_5A: translation elongation factor IF5A,69,2.9,0.0
+post232,ar53,TIGR00064,ftsY,ftsY: signal recognition particle-docking protein FtsY,69,2.9,0.0
+post232,ar53,TIGR00491,aIF-2,aIF-2: translation initiation factor aIF-2,69,2.9,0.0
+post232,ar53,TIGR01052,top6b,"top6b: DNA topoisomerase VI, B subunit",69,0.0,2.9
+post232,ar53,TIGR01213,pseudo_Pus10arc,pseudo_Pus10arc: tRNA pseudouridine(54/55) synthase,69,2.9,0.0
+post232,ar53,TIGR02390,RNA_pol_rpoA1,RNA_pol_rpoA1: DNA-directed RNA polymerase subunit A',69,1.45,1.45
+post232,ar53,PF00687.22,Ribosomal_L1,Ribosomal protein L1p/L10e family,69,1.45,0.0
+post232,ar53,PF01280.21,Ribosomal_L19e,Ribosomal protein L19e,69,0.0,1.45
+post232,ar53,PF04919.13,Protein of unknown function (DUF655),Protein of unknown function (DUF655),69,1.45,0.0
+post232,ar53,TIGR00405,KOW_elon_Spt5,KOW_elon_Spt5: transcription elongation factor Spt5,69,1.45,0.0
+post232,ar53,TIGR00448,rpoE,rpoE: DNA-directed RNA polymerase,69,1.45,0.0
+post232,ar53,TIGR01008,uS3_euk_arch,uS3_euk_arch: ribosomal protein uS3,69,1.45,0.0
+post232,ar53,PF00410.20,Ribosomal_S8,Ribosomal protein S8,69,0.0,0.0
+post232,ar53,PF00900.21,Ribosomal_S4e,Ribosomal family S4e,69,0.0,0.0
+post232,ar53,PF01000.27,RNA_pol_A_bac,RNA polymerase Rpb3/RpoA insert domain,69,0.0,0.0
+post232,ar53,PF01090.20,Ribosomal_S19e,Ribosomal protein S19e,69,0.0,0.0
+post232,ar53,PF01200.19,Ribosomal_S28e,Ribosomal protein S28e,69,0.0,0.0
+post232,ar53,TIGR00291,RNA_SBDS,"RNA_SBDS: rRNA metabolism protein, SBDS family",69,0.0,0.0
+post232,ar53,TIGR00982,uS12_E_A,uS12_E_A: ribosomal protein uS12,69,0.0,0.0
+post232,ar53,TIGR01012,uS2_euk_arch,uS2_euk_arch: ribosomal protein uS2,69,0.0,0.0
+post232,ar53,TIGR01018,uS4_arch,uS4_arch: ribosomal protein uS4,69,0.0,0.0
+post232,ar53,TIGR01020,uS5_euk_arch,uS5_euk_arch: ribosomal protein uS5,69,0.0,0.0
+post232,ar53,TIGR01028,uS7_euk_arch,uS7_euk_arch: ribosomal protein uS7,69,0.0,0.0
+post232,ar53,TIGR01046,uS10_euk_arch,uS10_euk_arch: ribosomal protein uS10,69,0.0,0.0

@@ -24,6 +24,14 @@ for s in ('bac120', 'ar53'):
     for r in csv.DictReader(open(f'{MI}/gtdbtk.{s}.marker_info.tsv'), delimiter='\t'):
         info[r['Marker ID']] = (r['Name'], r['Description'])
 
+def label(m):
+    """Short marker label: the gene name of a TIGRFAM description, a Pfam name
+    unless it is a DUF, then the description."""
+    nm, desc = info.get(m, ('', ''))
+    if m.startswith('TIGR') and ':' in desc: return desc.split(':')[0]
+    if nm and not nm.startswith('DUF'): return nm
+    return desc
+
 G = {}
 for d in SETS:
     G[d] = []
@@ -31,7 +39,8 @@ for d in SETS:
         lin = r['lineage'].split(';') if r['lineage'] else []
         n = int(r['n_markers'])
         G[d].append(dict(acc=r['accession'], set=r['marker_set'], n=n,
-            miss=int(r['missing']), multi=int(r['multi']),
+            miss=int(r['missing']), multi=int(r['multi']), lost=int(r['lost']),
+            lost_pct=100 * int(r['lost']) / n,
             miss_pct=100 * int(r['missing']) / n, multi_pct=100 * int(r['multi']) / n,
             deficit=100 - float(r['completeness']), cont=float(r['contamination']),
             model='specific' if r['checkm2_model'].startswith('Neural') else 'general',
@@ -51,7 +60,8 @@ TESTS = [('compl_lt99', lambda g: g['deficit'] > 1), ('compl_lt95', lambda g: g[
          ('checkm2_clean', lambda g: g['deficit'] <= 1 and g['cont'] <= 1),
          ('miss_gt0', lambda g: g['miss'] > 0), ('miss_gt5', lambda g: g['miss'] > 5),
          ('multi_gt0', lambda g: g['multi'] > 0), ('multi_gt5', lambda g: g['multi'] > 5),
-         ('markers_clean', lambda g: g['miss'] == 0 and g['multi'] == 0)]
+         ('markers_clean', lambda g: g['miss'] == 0 and g['multi'] == 0),
+         ('lost_gt5pct', lambda g: g['lost_pct'] > 5), ('lost_gt10pct', lambda g: g['lost_pct'] > 10)]
 summ = []
 for d in SETS:
     for m in ('all', 'specific', 'general'):
@@ -62,7 +72,8 @@ for d in SETS:
 w('summary.csv', summ, ['set', 'model', 'n'] + [k for k, _ in TESTS])
 
 MEAS = [('deficit', 'CheckM2 completeness below 100'), ('cont', 'CheckM2 contamination'),
-        ('miss_pct', 'markers missing'), ('multi_pct', 'markers in several copies')]
+        ('miss_pct', 'markers missing'), ('multi_pct', 'markers in several copies'),
+        ('lost_pct', 'markers lost to the alignment')]
 dist = []
 for d in SETS:
     for k, _ in MEAS:
@@ -76,7 +87,7 @@ mk = []
 for d in SETS:
     for r in csv.DictReader(open(f'{A}/{d}.markers.tsv'), delimiter='\t'):
         nm, desc = info.get(r['marker'], ('', ''))
-        mk.append(dict(set=d, marker_set=r['marker_set'], marker=r['marker'], name=nm, description=desc,
+        mk.append(dict(set=d, marker_set=r['marker_set'], marker=r['marker'], name=label(r['marker']), description=desc,
                        genomes=int(r['genomes']), pct_missing=float(r['pct_missing']), pct_multi=float(r['pct_multi'])))
 w('markers.csv', mk, ['set', 'marker_set', 'marker', 'name', 'description', 'genomes', 'pct_missing', 'pct_multi'])
 
@@ -89,12 +100,13 @@ for d in SETS:
         if len(S) < 10: continue
         mean = lambda k: sum(g[k] for g in S) / len(S)
         ph.append(dict(set=d, domain=dom, phylum=p, n=len(S), miss_pct=mean('miss_pct'), multi_pct=mean('multi_pct'),
+                       lost_pct=mean('lost_pct'),
                        deficit=mean('deficit'), cont=mean('cont'),
                        general=100 * sum(g['model'] == 'general' for g in S) / len(S),
                        miss_gt5=100 * sum(g['miss'] > 5 for g in S) / len(S),
                        cont_gt5=100 * sum(g['cont'] > 5 for g in S) / len(S)))
 ph.sort(key=lambda r: (r['set'], -r['n']))
-w('phyla.csv', ph, ['set', 'domain', 'phylum', 'n', 'miss_pct', 'multi_pct', 'deficit', 'cont', 'general', 'miss_gt5', 'cont_gt5'])
+w('phyla.csv', ph, ['set', 'domain', 'phylum', 'n', 'miss_pct', 'multi_pct', 'lost_pct', 'deficit', 'cont', 'general', 'miss_gt5', 'cont_gt5'])
 
 # heat map: reps only (post232 has too few genomes outside a handful of phyla)
 miss_lists = {}
@@ -110,19 +122,19 @@ for ms, dom, nmark, nmin in (('bac120', 'Bacteria', 30, 20), ('ar53', 'Archaea',
     for p, S in by.items():
         if len(S) < nmin: continue
         for m in top:
-            heat.append(dict(marker_set=ms, phylum=p, n=len(S), marker=m, name=info[m][0],
+            heat.append(dict(marker_set=ms, phylum=p, n=len(S), marker=m, name=label(m),
                              pct_missing=100 * sum(m in miss_lists[g['acc']] for g in S) / len(S)))
 w('heat.csv', heat, ['marker_set', 'phylum', 'n', 'marker', 'name', 'pct_missing'])
 
 out = []
 for d in SETS:
-    for k, _ in (('cont', 0), ('deficit', 0), ('miss_pct', 0)):
+    for k in ('cont', 'deficit', 'miss_pct', 'lost_pct'):
         for g in sorted(G[d], key=lambda g: -g[k])[:10]:
             out.append(dict(set=d, by=k, accession=g['acc'], phylum=g['phylum'], species=g['species'],
                             completeness=100 - g['deficit'], contamination=g['cont'], model=g['model'],
-                            missing=g['miss'], multi=g['multi'], n_markers=g['n'], coding_density=g['density']))
+                            missing=g['miss'], multi=g['multi'], lost=g['lost'], n_markers=g['n'], coding_density=g['density']))
 w('outliers.csv', out, ['set', 'by', 'accession', 'phylum', 'species', 'completeness', 'contamination', 'model',
-                        'missing', 'multi', 'n_markers', 'coding_density'])
+                        'missing', 'multi', 'lost', 'n_markers', 'coding_density'])
 
 # numbers quoted in the text
 def spearman(x, y):
@@ -142,5 +154,6 @@ for d in SETS:
     print(f"== {d}: {len(S)} genomes, {sum(g['domain'] == 'Archaea' for g in S)} archaeal, "
           f"{sum(not g['phylum'] for g in S)} without a phylum, {Counter(g['model'] for g in S)}")
     print(f"   spearman(markers missing %, completeness deficit) = {spearman([g['miss_pct'] for g in S], [g['deficit'] for g in S]):.2f}")
+    print(f"   spearman(markers lost %, completeness deficit) = {spearman([g['lost_pct'] for g in S], [g['deficit'] for g in S]):.2f}")
     print(f"   spearman(markers multi %, contamination) = {spearman([g['multi_pct'] for g in S], [g['cont'] for g in S]):.2f}")
 for r in summ: print('  ', {k: (round(v, 1) if isinstance(v, float) else v) for k, v in r.items()})

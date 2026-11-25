@@ -30,6 +30,7 @@ Write-up: https://cryomics.org/reports/closed-genome-markers/
 | GTDB lineage for post-R232 genomes, from their NCBI names | `ncbi_to_gtdb_lineage.py` | `post232_lineage.tsv` |
 | Score each genome against its domain's marker set | `markers.py` | `<set>.genomes.tsv`, `<set>.markers.tsv` |
 | Small CSVs for the report's figures | `report_data.py` | `summary.csv`, `dist.csv`, ... |
+| Check that the alignment drops markers in differing copies | `msa_check.py` | Pearson r, printed |
 
 ```bash
 R=/path/to/gtdb/release232        # bac120/ar53_metadata_r232.tsv.gz, gtdb_genomes_reps_r232 unpacked
@@ -49,6 +50,7 @@ python3 ncbi_to_gtdb_lineage.py $R/bac120_metadata_r232.tsv.gz $R/ar53_metadata_
 python3 markers.py reps/out gtdb_r232_taxonomy.tsv reps
 python3 markers.py post232/out post232_lineage.tsv post232
 python3 report_data.py . reps/out/gtdbtk/align/intermediate_results report_data
+python3 msa_check.py reps/out; python3 msa_check.py post232/out
 ```
 
 The `q_` prefix is needed because GTDB-Tk refuses input genomes whose ids

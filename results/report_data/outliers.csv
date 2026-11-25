@@ -1,0 +1,81 @@
+set,by,accession,phylum,species,completeness,contamination,model,missing,multi,lost,n_markers,coding_density
+reps,cont,GCF_016864375.1,Pseudomonadota,Microvirga sp016864375,100.0,18.77,general,0,3,3,120,0.84
+reps,cont,GCF_002234535.1,Actinomycetota,Actinoalloteichus_A hoggarensis,59.37,17.63,specific,83,0,83,120,0.88
+reps,cont,GCF_020700235.1,Halobacteriota,Haladaptatus pallidirubidus,99.99,15.09,specific,0,3,3,53,0.82
+reps,cont,GCA_001931535.1,Myxococcota_A,Minicystis rosea,99.89,14.79,general,4,10,14,120,0.87
+reps,cont,GCF_004799645.1,Halobacteriota,Natronorubrum bangense,99.95,12.72,specific,0,11,0,53,0.85
+reps,cont,GCF_004208415.1,Chloroflexota,Ktedonosporobacter rubrisoli,95.77,12.41,general,3,11,14,120,0.82
+reps,cont,GCF_041428895.1,Bacillota,Sporomusa aerivorans,100.0,12.34,specific,0,10,10,120,0.85
+reps,cont,GCA_965208845.1,Latescibacterota,GCA-2724215 sp965208845,94.93,12.04,general,3,7,10,120,0.92
+reps,cont,GCA_965218365.1,Latescibacterota,G965208105 sp965218365,93.28,11.95,general,9,7,16,120,0.88
+reps,cont,GCF_030915385.1,Bacillota,JAEVLT01 sp030915385,100.0,11.89,general,1,10,11,120,0.82
+reps,deficit,GCA_022009895.1,Bacillota,Qingrenia sp022009895,38.45,0.28,general,63,4,67,120,0.73
+reps,deficit,GCA_047199055.1,Pseudomonadota,ECMA0423 sp047199055,43.08,1.64,specific,63,8,71,120,0.7
+reps,deficit,GCA_047199095.1,Pseudomonadota,G047199095 sp047199095,44.18,0.23,specific,67,1,68,120,0.73
+reps,deficit,GCA_048288485.1,Pseudomonadota,Enterobacter flexneri_A,44.44,1.51,specific,65,5,70,120,0.74
+reps,deficit,GCA_048288465.1,Pseudomonadota,Enterobacter flexneri_B,44.57,0.0,specific,71,0,71,120,0.72
+reps,deficit,GCA_002886105.1,Pseudomonadota,G002886105 sp002886105,48.4,2.65,specific,58,9,67,120,0.76
+reps,deficit,GCA_024703915.1,Pseudomonadota,Telluria_A sp024703915,50.59,1.82,general,51,4,55,120,0.79
+reps,deficit,GCA_035238425.1,Bacillota_I,Thomasclavelia merdavium,52.46,6.54,general,43,8,51,120,0.75
+reps,deficit,GCA_025232375.1,Pseudomonadota,Pseudoxanthomonas sp025232375,56.67,1.21,specific,33,6,39,120,0.8
+reps,deficit,GCA_051295325.1,Actinomycetota,Berryella vaginalis,57.52,0.01,specific,33,0,33,120,0.86
+reps,miss_pct,GCF_002158865.1,Pseudomonadota,Comamonas_E serinivorans,75.15,9.78,specific,116,0,116,120,0.88
+reps,miss_pct,GCF_002234535.1,Actinomycetota,Actinoalloteichus_A hoggarensis,59.37,17.63,specific,83,0,83,120,0.88
+reps,miss_pct,GCF_033370915.1,Bacteroidota,Shikimatogenerans bostrichidophilus_M,59.96,0.15,specific,72,0,72,120,0.92
+reps,miss_pct,GCA_048288465.1,Pseudomonadota,Enterobacter flexneri_B,44.57,0.0,specific,71,0,71,120,0.72
+reps,miss_pct,GCF_016888765.1,Bacteroidota,Karelsulcia muelleri_F,73.58,0.22,specific,71,0,71,120,0.92
+reps,miss_pct,GCF_024818015.1,Bacteroidota,Karelsulcia muelleri_C,82.92,0.28,specific,70,0,70,120,0.94
+reps,miss_pct,GCF_022985615.1,Bacteroidota,Karelsulcia muelleri_G,77.42,0.22,specific,69,0,69,120,0.86
+reps,miss_pct,GCA_031674855.1,Bacillota_I,CGIF01 sp031674855,78.48,1.48,general,69,0,69,120,0.83
+reps,miss_pct,GCF_033372575.1,Bacteroidota,Shikimatogenerans bostrichidophilus_L,61.25,0.15,specific,69,0,69,120,0.91
+reps,miss_pct,GCA_000147015.1,Pseudomonadota,Zinderia insecticola,93.28,0.27,specific,67,0,67,120,0.92
+reps,lost_pct,GCF_002158865.1,Pseudomonadota,Comamonas_E serinivorans,75.15,9.78,specific,116,0,116,120,0.88
+reps,lost_pct,GCF_002234535.1,Actinomycetota,Actinoalloteichus_A hoggarensis,59.37,17.63,specific,83,0,83,120,0.88
+reps,lost_pct,GCF_033370915.1,Bacteroidota,Shikimatogenerans bostrichidophilus_M,59.96,0.15,specific,72,0,72,120,0.92
+reps,lost_pct,GCA_048288465.1,Pseudomonadota,Enterobacter flexneri_B,44.57,0.0,specific,71,0,71,120,0.72
+reps,lost_pct,GCA_047199055.1,Pseudomonadota,ECMA0423 sp047199055,43.08,1.64,specific,63,8,71,120,0.7
+reps,lost_pct,GCF_016888765.1,Bacteroidota,Karelsulcia muelleri_F,73.58,0.22,specific,71,0,71,120,0.92
+reps,lost_pct,GCA_048288485.1,Pseudomonadota,Enterobacter flexneri_A,44.44,1.51,specific,65,5,70,120,0.74
+reps,lost_pct,GCF_024818015.1,Bacteroidota,Karelsulcia muelleri_C,82.92,0.28,specific,70,0,70,120,0.94
+reps,lost_pct,GCF_022985615.1,Bacteroidota,Karelsulcia muelleri_G,77.42,0.22,specific,69,0,69,120,0.86
+reps,lost_pct,GCA_031674855.1,Bacillota_I,CGIF01 sp031674855,78.48,1.48,general,69,0,69,120,0.83
+post232,cont,GCA_060373345.1,Pseudomonadota,Variovorax,100.0,89.69,specific,0,120,120,120,0.89
+post232,cont,GCA_060373565.1,Pseudomonadota,Variovorax,100.0,89.15,specific,0,120,120,120,0.89
+post232,cont,GCA_054209055.1,Verrucomicrobiota,Opitutales,100.0,79.15,general,1,111,112,120,0.9
+post232,cont,GCA_055685895.1,Actinomycetota,Arthrobacter,100.0,34.09,specific,0,45,45,120,0.86
+post232,cont,GCA_055686285.1,Bacillota,Staphylococcus hominis,72.37,23.94,specific,33,61,94,120,0.88
+post232,cont,GCA_056712425.1,Bacillota,Neobacillus,99.84,13.2,general,0,10,10,120,0.82
+post232,cont,GCA_055385335.1,,,92.71,11.43,general,8,2,10,53,0.87
+post232,cont,GCA_060026615.1,,,91.03,11.38,general,6,11,17,120,0.88
+post232,cont,GCA_062042968.1,Bacillota,Brevibacillaceae,100.0,11.26,specific,0,10,10,120,0.87
+post232,cont,GCA_062043006.1,Bacillota,Brevibacillaceae,100.0,11.26,specific,0,10,10,120,0.87
+post232,deficit,GCA_986446235.1,Pseudomonadota,Enterobacteriaceae,3.02,0.0,specific,120,0,120,120,0.83
+post232,deficit,GCA_982345125.1,Pseudomonadota,Aquipseudomonas,5.01,0.02,specific,119,0,119,120,0.85
+post232,deficit,GCA_056989815.1,Pseudomonadota,Sphingobium,25.79,0.27,specific,120,0,120,120,0.91
+post232,deficit,GCA_057501655.1,Actinomycetota,Cutibacterium granulosum,28.62,1.44,specific,118,0,118,120,0.91
+post232,deficit,GCA_058248335.1,Thermoproteota,Saccharolobus islandicus,33.34,4.32,specific,29,1,30,53,0.67
+post232,deficit,GCA_061130175.1,Campylobacterota,Campylobacter_D hepaticus,40.86,2.02,general,63,5,68,120,0.71
+post232,deficit,GCA_059696275.1,Pseudomonadota,Burkholderia,41.16,0.2,specific,116,0,116,120,0.86
+post232,deficit,GCA_057176105.1,Pseudomonadota,Luteimonas arsenica,50.37,0.01,general,63,1,64,120,0.85
+post232,deficit,GCA_057175645.1,Pseudomonadota,Rhodobacteraceae,51.2,1.32,specific,46,1,47,120,0.83
+post232,deficit,GCA_057175765.1,Bacteroidota,Sphingobacterium humi,51.25,0.26,specific,56,1,57,120,0.89
+post232,miss_pct,GCA_056989815.1,Pseudomonadota,Sphingobium,25.79,0.27,specific,120,0,120,120,0.91
+post232,miss_pct,GCA_986446235.1,Pseudomonadota,Enterobacteriaceae,3.02,0.0,specific,120,0,120,120,0.83
+post232,miss_pct,GCA_982345125.1,Pseudomonadota,Aquipseudomonas,5.01,0.02,specific,119,0,119,120,0.85
+post232,miss_pct,GCA_057501655.1,Actinomycetota,Cutibacterium granulosum,28.62,1.44,specific,118,0,118,120,0.91
+post232,miss_pct,GCA_059696275.1,Pseudomonadota,Burkholderia,41.16,0.2,specific,116,0,116,120,0.86
+post232,miss_pct,GCA_054990155.1,,,91.0,0.19,general,98,0,98,120,0.94
+post232,miss_pct,GCA_053760525.1,,,69.17,0.52,general,97,0,97,120,0.93
+post232,miss_pct,GCA_056639295.1,,,80.44,0.0,general,96,0,96,120,0.92
+post232,miss_pct,GCA_057176845.1,Actinomycetota,Rhodococcus,59.14,0.04,specific,75,0,75,120,0.87
+post232,miss_pct,GCA_053764265.1,,,84.57,0.15,specific,68,0,68,120,0.89
+post232,lost_pct,GCA_060373565.1,Pseudomonadota,Variovorax,100.0,89.15,specific,0,120,120,120,0.89
+post232,lost_pct,GCA_056989815.1,Pseudomonadota,Sphingobium,25.79,0.27,specific,120,0,120,120,0.91
+post232,lost_pct,GCA_060373345.1,Pseudomonadota,Variovorax,100.0,89.69,specific,0,120,120,120,0.89
+post232,lost_pct,GCA_986446235.1,Pseudomonadota,Enterobacteriaceae,3.02,0.0,specific,120,0,120,120,0.83
+post232,lost_pct,GCA_982345125.1,Pseudomonadota,Aquipseudomonas,5.01,0.02,specific,119,0,119,120,0.85
+post232,lost_pct,GCA_057501655.1,Actinomycetota,Cutibacterium granulosum,28.62,1.44,specific,118,0,118,120,0.91
+post232,lost_pct,GCA_059696275.1,Pseudomonadota,Burkholderia,41.16,0.2,specific,116,0,116,120,0.86
+post232,lost_pct,GCA_054209055.1,Verrucomicrobiota,Opitutales,100.0,79.15,general,1,111,112,120,0.9
+post232,lost_pct,GCA_054990155.1,,,91.0,0.19,general,98,0,98,120,0.94
+post232,lost_pct,GCA_053760525.1,,,69.17,0.52,general,97,0,97,120,0.93
